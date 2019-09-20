@@ -1,0 +1,668 @@
+current_time=0
+description=""
+experience_modifier=70
+id="hey yooo"
+map_data="border_size=1
+usage=map
+
+Gll^Ftr, Gg, Mm, Mm, Mm, Gg, Gll^Ftr, Gg, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gg, Gll^Ftr, Gll^Ftr, Rb, Rb, Rb, Gg, Gll^Ftr, Gg, Gll^Ftr, Gg, Gll^Ftr, Gg, Gs^Ft, Gg, Re, Gll^Fp, Re, Gll^Fp, Gll^Fp, Chw, Chw, Wo, Ss^Vhs, Wo, Wo, Wo, Wo, Wo, Ww^Vm, Wo, Wo, Wo, Wo, Wo
+Gll^Ftr, Mm, Wo, Wo, Wo, Mm, Mm, Mm, Mm, Gll^Ftr, Gll^Ftr, Gll^Ftr, Rb, Rb, Rb, Rb, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gs^Ft, Gs^Ft, Re, Gll^Fp, Re, Rb, Re, Chw, Wo, Wo, Wo, Wo, Wo, Wo, Ww^Vm, Wo, Wo, Wo, Wo, Ww^Vm, Wo, Wo
+Gll^Ftr, Mm, Wo, Hh^Vhh, Qxu^Bh\, Gg, Rb, Rb, Rb, Rb, Rb, Rb, Rb, Rb, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Re, Re, Re, Re, Re, Re, Re, Chw, Wo^Bsb\, Wo^Bsb\, Wo, Wo, Ww^Vm, Ww^Vm, Wo, Wo, Wo, Wo, Ww^Vm, Wo, Wo, Ww^Vm, Wo
+Gll^Ftr, Mm, Ms, Wo, Mm, Gg, Gg, Gg, Md^Xm, Rb, Rb, Rb, Rb, Rb, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Re, Re, Re, Re, Re, Re, Gll^Fp, Gll^Fp, Chw, Wog, Wo, Wo^Bsb\, Wo^Bsb\, Wwt, Wwt, Wo, Wo, Ww^Vm, Wot, Wo, Wo, Ww^Vm, Wo, Wo
+Re, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Md^Xm, Gll^Ftr, Gll^Ftr, Gll^Ftr, Rb, Re, Rb, Re, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Re, Re, Re, Re, Re, Re, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Chw, Wo, Ww^Vm, Wo, Wo, Wwt^Bsb\, Wo^Bsb\, Wwt, Wot, Wot, Khw, Wot, Wot, Ww^Vm, Wo, Wo
+Gg, Gll^Ftr, Gg, Gll^Ftr, Ms^Xm, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Re, Re, Re, Re, Gll^Ftr, Re, Re, Re, Re, Gll^Fp, Re, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Chw, Wo, Ww^Vm, Wo, Wo, Wwt, Wo, Wo^Bsb\, Wot^Bsb\, Khw, Chw, Khw, Wot, Ww^Vm, Ww^Vm, Wo
+Gg, Ms^Xm, Ms^Xm, Ms^Xm, Xv, Ms^Xm, Ms^Xm, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Re, Re, Re, Re, Re, Re, Re, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Chw, Wo, Wo, Wo, Wo, Ww^Vm, Wo, Wo, Wot, Chw, Chw, Chw, Wot, Ww^Vm, Wo, Wo
+Gg, Ms^Xm, Xv, Xv, Xv, Xv, Ms^Xm, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Re, Re, Re, Re, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Chw, Wo, Wo, Ww^Vm, Wo, Wo, Ww^Vm, Wwt, Wot, Khw, Khw, Khw, Wot, Wo, Wo, Wo
+Gg, Ms^Xm, Ms^Xm, Xv, Ms^Xm, Xv, Ms^Xm, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Re, Re, Re, Re, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Chw, Wo, Wo, Wo, Wo, Wo, Wo, Wo, Wo, Wot, Wot, Wot, Wo, Ww^Vm, Wo, Wo
+Gg, Ms^Xm, Gll^Ftr, Ms^Xm, Gll^Ftr, Ms^Xm, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Dd^Ftd, Gll^Ftr, Dd^Ftd, Gll^Ftr, Dd^Ftd, Gll^Ftr, Dd^Ftd, Gll^Ftr, Dd^Ftd, Gll^Ftr, Dd^Ftd, Re, Re, Re, Re, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Chw, Chw, Wo, Chw, Ww^Vm, Chw, Wo, Chw, Chw, Chw, Chw, Chw, Chw, Chw, Chw
+Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Re, Re, Re, Re, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Chw, Gll^Fp, Chw, Gll^Fp, Chw, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fdw, Gll^Fp, Gll^Fp, Gll^Fp
+Dd^Ftd, Dd^Ftd, Cd, Dd^Ftd, Cd, Dd^Ftd, Cd, Dd^Ftd, Cd, Dd^Ftd, Cd, Dd^Ftd, Cd, Dd^Ftd, Cd, Dd^Ftd, Cd, Dd^Ftd, Cd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Re, Re, Re, Re, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fp, Gll^Fdw, Gll^Fdw, Gll^Fdw, Gll^Fp, Gll^Fdw, Gll^Fdw, Gll^Fdw, Gll^Fdw, Md, Gll^Fdw, Md, Gll^Fdw
+Cd, Cd, Wot, Cd, Wog, Cd, Dd, Cd, Dd^Vda, Cd, Dd^Vda, Cd, Dd, Cd, Dd^Vdt, Cd, Dd^Vdt, Cd, Dd^Vdt, Cd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Re, Re, Re, Gll^Fp, Gll^Fdw, Gll^Fdw, Gll^Fdw, Gll^Fdw, Rb, Rb, Rb, Gll^Fdw, Md, Md, Md, Md, Md, Md, Md, Md
+Wot, Wot, Wot, Wo, Wog, Dd, Dd, Dd^Vda, Dd, Dd^Vda, Dd, Dd, Dd, Dd^Vdt, Dd^Vdt, Dd^Vdt, Dd^Vdt, Dd^Vdt, Dd^Vdt, Cd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Re, Re, Re, Gll^Fdw, Rb, Gll^Fdw, Rb, Rb, Rb, Rb, Rb, Rb, Rb, Md, Qlf, Qlf, Qlf, Rp^Vhcr, Rp^Vhcr, Md
+Wot, Wot, Wot, Wo, Wog, Dd, Dd, Dd, Dd^Esd, Dd, Dd, Dd, Dd, Dd, Dd, Dd^Vdt, Dd, Dd^Vdt, Dd, Cd, Re, Re, Re, Dd^Ftd, Re, Dd^Ftd, Re, Re, Re, Rb, Rb, Rb, Rb, Rb, Rb, Rb, Rb, Rb, Rb^Bw\r, Qlf^Bw\r, Qlf^Bw\r, Qlf, Qlf^Bw/, Rp^Vhcr, Kyd, Md
+Wot, Wot, Wot, Wo, Wog, Dd, Dd, Dd, Dd^Esd, Dd, Kdr, Kdr, Kdr, Dd, Dd, Dd, Dd, Dd, Dd, Rd, Re, Re, Re, Re, Re, Re, Re, Re, Re, Rb, Rb, Rb, Rb, Rb, Rb, Rb, Rb, Rb, Md, Qlf^Bw\r, Qlf^Bw/, Qlf^Bw/r, Qlf, Rp^Vhcr, Rp^Vhcr, Md
+Wot, Wot, Wot, Wo, Wog, Dd, Dd, Dd, Dd^Esd, Kdr, Kdr, Dd^Do, Kd, Dd, Dd, Dd, Dd, Dd, Dd, Rd, Re, Re, Re, Re, Re, Re, Re, Re, Re, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Rb, Rb, Rb, Rb, Rb, Gll^Fdw, Md, Md, Qlf, Md, Rp^Vhcr, Md, Md
+Wot, Wot, Wot, Wo, Wog, Dd, Dd, Dd, Dd, Dd, Dd, Kdr, Dd, Dd^Esd, Dd, Dd, Dd^Vdt, Dd, Dd, Rd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Re, Re, Re, Re, Re, Re, Re, Re, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Rb, Gll^Fdw, Gll^Fdw, Gll^Fdw, Gll^Fdw, Gll^Fdw, Md, Gll^Fdw, Md, Gll^Fdw, Md
+Wot, Wot, Wot, Wo, Wog, Dd, Dd, Dd, Dd^Esd, Dd, Dd, Dd, Dd^Esd, Dd, Dd, Dd^Vdt, Dd^Vdt, Dd^Vdt, Dd^Vdt, Cd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Re, Re, Re, Re, Re, Re, Re, Re, Re, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Fdw, Gll^Fdw, Gll^Fdw, Gll^Fdw, Gll^Fdw, Gll^Fdw, Gll^Fdw, Gll^Fdw, Gll^Fdw
+Wot, Wot, Wot, Wo, Wog, Dd, Dd^Vda, Dd, Dd^Vda, Dd, Dd^Vda, Dd^Esd, Dd^Vda, Dd^Esd, Dd, Dd^Vdt, Dd^Vdt, Dd^Vdt, Dd^Vdt, Cdr, Dd^Ftd, Dd^Ftd, Dd^Ftd, Re, Re, Re, Re, Re, Re, Re, Re, Re, Re, Re, Re, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Fdw
+Cd, Wot, Wot, Wo, Wog, Dd, Dd^Vda, Dd, Dd^Vda, Dd^Vda, Dd, Dd^Vda, Rd, Dd, Dd, Dd^Vdt, Cdr, Dd^Vdt, Cdr, Cdr, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Re, Re, Re, Aa^Fpa, Aa^Fpa, Re, Aa^Fpa, Re, Re, Re, Re, Re, Re, Gll^Ftr, Aa^Fma, Aa^Fma, Aa^Fma, Aa^Fma, Aa^Fma, Aa^Fma, Aa^Fma, Gll^Ftr
+Cd, Wot, Cdr, Wo, Cdr, Cdr, Cdr, Cdr, Cdr, Cdr, Cdr, Cdr, Cdr, Cdr, Cdr, Cdr, Dd^Ftd, Cdr, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Re, Re, Re, Re, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Cea, Re, Re, Re, Re, Re, Re, Aa^Fma, Aa^Fpa, Aa^Fma, Aa^Fpa, Aa^Fma, Aa^Fpa, Aa^Fma
+Dd^Ftd, Cdr, Dd^Ftd, Cdr, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Re, Re, Re, Re, Re, Aa^Fma, Cea, Aa^Fpa, Cea, Aa^Fpa, Cea, Cea, Aa, Aa, Aa, Re, Aa, Re, Aa, Re, Cea, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa
+Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Re, Re, Re, Re, Re, Re, Aa^Fpa, Aa^Fpa, Cea, Cea, Ms, Cea, Aa^Vaa, Aa^Vaa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Cea, Cea, Cea, Cea, Cea
+Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Re, Re, Re, Re, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Cea, Ms, Ms, Ms, Aa^Vha, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa^Eff, Ai, Ai, Ai, Wot, Ai
+Gg, Dd^Ftd, Dd^Ftd, Gll^Ftr, Gll^Ftr, Dd^Ftd, Gll^Ftr, Dd^Ftd, Gll^Ftr, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Dd^Ftd, Re, Re, Re, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Cea, Ms, Ms, Ms, Rrc^Vhca, Ha^Vhha, Aa^Vla, Aa, Aa, Aa, Aa, Aa, Aa, Aa^Eff, Aa^Eff, Ai, Wot, Wot, Wot, Wot
+Gg, Gll^Ftr, Gs^Ft, Gll^Ftr, Gs^Ft, Gll^Ftr, Gs^Ft, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Gll^Ftr, Dd^Ftd, Re, Re, Re, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Cea, Aa^Vla, Aa^Voa, Aa^Vla, Rrc^Vhca, Aa^Vla, Aa^Vca, Aa^Vla, Ha^Vhha, Aa, Aa, Aa, Aa, Aa^Eff, Aa, Ai, Wot, Wot, Wot, Wot
+Gg, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gll^Ftr, Gs^Ft, Gll^Ftr, Gs^Ft, Gll^Ftr, Gll^Ftr, Gll^Ftr, Re, Re, Re, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Cea, Aa^Fpa, Aa^Vea, Aa^Vha, Aa^Vha, Ha^Vhha, Rrc^Vhca, Rrc^Vhca, Aa, Aa, Aa, Aa, Aa, Aa, Aa^Eff, Ai, Ai, Wot, Wot, Wot
+Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Ss^Vhs, Gs^Ft, Gg, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Re, Re, Re, Re, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Cea, Aa^Fpa, Rrc^Vhca, Rrc^Vhca, Aa^Vha, Rrc^Vhca, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa^Eff, Aa, Ai^Eff, Ai^Eff, Wot, Wo, Wot
+Gs^Ft, Gs^Ft, Ss^Vhs, Gg^Edt, Gg, Ss^Vhs, Gg, Gg^Edt, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Re, Gs^Ft, Re, Gs^Ft, Re, Re, Re, Re, Re, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Cea, Aa^Fpa, Aa, Aa^Vca, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Kea, Ai^Eff, Ai^Eff, Ai^Eff
+Gs^Ft, Gs^Ft, Gg, Gg, Ww^Ewf, Ww^Ewf, Ww^Ewf, Gg, Gg, Gg, Gg, Gg, Re, Re, Re, Re, Re, Re, Re, Re, Re, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Cea, Aa, Ai, Aa, Aa, Aa, Aa, Ms^Xm, Kha, Aa, Kha, Ms^Xm, Aa, Aa, Kea, Kea, Kea, Aa, Aa, Aa^Eff
+Gs^Ft, Gs^Ft, Ss^Vhs, Gg, Ww^Ewf, Gd^Fetd, Ww^Ewf, Gg, Gg, Gg, Gg, Gg, Re, Re, Re, Re, Re, Re, Re, Re, Re, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Cea, Aa, Ai, Ai, Aa, Aa, Aa, Ms^Xm, Kha, Aa, Kha, Ms^Xm, Aa, Aa, Kea, Kea^Ecf, Kea, Aa, Aa, Aa
+Gs^Ft, Gs^Ft, Gg, Gg, Gg, Ww^Ewf, Gg, Gg, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Re, Gs^Ft, Re, Re, Re, Re, Re, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Cea, Aa, Ai, Ai, Aa, Aa, Aa, Ms^Xm, Ms^Xm, Kha, Ms^Xm, Ms^Xm, Aa, Aa, Aa, Kea, Kea, Aa, Aa, Aa
+Gs^Ft, Ss^Vhs, Gg, Gg^Edt, Gg, Gg, Gg, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gll^Ftr, Gll^Ftr, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Aa^Fpa, Cea, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Ms^Xm, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa
+Gg, Gs^Ft, Gs^Ft, Ss^Vhs, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gs^Ft, Gg, Gs^Ft, Gg, Gs^Ft, Gg, Gs^Ft, Gg, Gll^Ftr, Gg, Aa^Fpa, Gg, Aa^Fpa, Gg, Aa, Cea, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa, Aa
+"
+name="hey yooo"
+random_starting_time=no
+turns=-1
+victory_when_enemies_defeated=yes
+[time]
+	blue=0
+	green=-20
+	id="dawn"
+	image="misc/time-schedules/default/schedule-dawn.png"
+	lawful_bonus=0
+	mask=""
+#textdomain wesnoth-help
+	name=_"Dawn"
+	red=-20
+	sound="ambient/morning.ogg"
+[/time]
+[time]
+	blue=0
+	green=0
+	id="morning"
+	image="misc/time-schedules/default/schedule-morning.png"
+	lawful_bonus=25
+	mask=""
+	name=_"Morning"
+	red=0
+	sound=""
+[/time]
+[time]
+	blue=0
+	green=0
+	id="afternoon"
+	image="misc/time-schedules/default/schedule-afternoon.png"
+	lawful_bonus=25
+	mask=""
+	name=_"Afternoon"
+	red=0
+	sound=""
+[/time]
+[time]
+	blue=-20
+	green=-20
+	id="dusk"
+	image="misc/time-schedules/default/schedule-dusk.png"
+	lawful_bonus=0
+	mask=""
+	name=_"Dusk"
+	red=0
+	sound="ambient/night.ogg"
+[/time]
+[time]
+	blue=-10
+	green=-35
+	id="first_watch"
+	image="misc/time-schedules/default/schedule-firstwatch.png"
+	lawful_bonus=-25
+	mask=""
+	name=_"First Watch"
+	red=-45
+	sound=""
+[/time]
+[time]
+	blue=-10
+	green=-35
+	id="second_watch"
+	image="misc/time-schedules/default/schedule-secondwatch.png"
+	lawful_bonus=-25
+	mask=""
+	name=_"Second Watch"
+	red=-45
+	sound=""
+[/time]
+[side]
+	controller="human"
+	fog=no
+	gold=0
+	hidden=no
+	income=2
+	no_leader=yes
+	share_maps=no
+	share_view=no
+	shroud=no
+	side=1
+	team_name=""
+	user_team_name=""
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Ancient Lich-1"
+		name=""
+		type="Ancient Lich"
+		unrenamable=no
+		x=44
+		y=14
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Elvish Archer-14"
+		name="Hundelon"
+		type="Elvish Archer"
+		unrenamable=no
+		x=6
+		y=29
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Elvish Archer-15"
+		name="Elion"
+		type="Elvish Archer"
+		unrenamable=no
+		x=6
+		y=32
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Elvish Archer-16"
+		name="Anilmalad"
+		type="Elvish Archer"
+		unrenamable=no
+		x=5
+		y=33
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Elvish Archer-17"
+		name="Eärebrinyl"
+		type="Elvish Archer"
+		unrenamable=no
+		x=5
+		y=29
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Elvish Marshal-18"
+		name="Unariong"
+		type="Elvish Marshal"
+		unrenamable=no
+		x=7
+		y=31
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Elvish Sylph-19"
+		name="Anuthra"
+		type="Elvish Sylph"
+		unrenamable=no
+		x=5
+		y=31
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Elvish Outrider-20"
+		name="Gumbor"
+		type="Elvish Outrider"
+		unrenamable=no
+		x=8
+		y=31
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Elvish Shaman-21"
+		name="Tinia"
+		type="Elvish Shaman"
+		unrenamable=no
+		x=7
+		y=30
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Elvish Druid-23"
+		name="Eärithra"
+		type="Elvish Druid"
+		unrenamable=no
+		x=9
+		y=30
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Wraith-25"
+		name=""
+		type="Wraith"
+		unrenamable=no
+		x=42
+		y=13
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Walking Corpse-26"
+		name=""
+		type="Walking Corpse"
+		unrenamable=no
+		x=42
+		y=14
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Walking Corpse-27"
+		name=""
+		type="Walking Corpse"
+		unrenamable=no
+		x=41
+		y=15
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Walking Corpse-28"
+		name=""
+		type="Walking Corpse"
+		unrenamable=no
+		x=40
+		y=15
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Skeleton-29"
+		name=""
+		type="Skeleton"
+		unrenamable=no
+		x=40
+		y=14
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Skeleton-30"
+		name=""
+		type="Skeleton"
+		unrenamable=no
+		x=39
+		y=15
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Draug-31"
+		name=""
+		type="Draug"
+		unrenamable=no
+		x=39
+		y=14
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Ghost-32"
+		name=""
+		type="Ghost"
+		unrenamable=no
+		x=38
+		y=14
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Rasikh-34"
+		name="Badirahd"
+		type="Rasikh"
+		unrenamable=no
+		x=39
+		y=5
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Tineen-35"
+		name="Abdul-Dir"
+		type="Tineen"
+		unrenamable=no
+		x=39
+		y=7
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Tineen-36"
+		name="Farif"
+		type="Tineen"
+		unrenamable=no
+		x=40
+		y=7
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Tineen-37"
+		name="Abid"
+		type="Tineen"
+		unrenamable=no
+		x=40
+		y=4
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Saree-38"
+		name="Muwan"
+		type="Saree"
+		unrenamable=no
+		x=41
+		y=5
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Ghazi-39"
+		name="Saqr"
+		type="Ghazi"
+		unrenamable=no
+		x=41
+		y=7
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Ghazi-40"
+		name="Abdul-Hadim"
+		type="Ghazi"
+		unrenamable=no
+		x=38
+		y=5
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Ghazi-41"
+		name="Muʿnib"
+		type="Ghazi"
+		unrenamable=no
+		x=37
+		y=5
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Naffat-44"
+		name="Bar"
+		type="Naffat"
+		unrenamable=no
+		x=36
+		y=4
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Ogre-45"
+		name="Urkuk"
+		type="Ogre"
+		unrenamable=no
+		x=13
+		y=17
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Young Ogre-46"
+		name="Olkrak"
+		type="Young Ogre"
+		unrenamable=no
+		x=12
+		y=15
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Goblin Rouser-48"
+		name="Binak"
+		type="Goblin Rouser"
+		unrenamable=no
+		x=11
+		y=15
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Goblin Rouser-49"
+		name="Eraolg"
+		type="Goblin Rouser"
+		unrenamable=no
+		x=12
+		y=16
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Goblin Impaler-50"
+		name="Prinak"
+		type="Goblin Impaler"
+		unrenamable=no
+		x=10
+		y=16
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Goblin Spearman-51"
+		name="Pogart"
+		type="Goblin Spearman"
+		unrenamable=no
+		x=10
+		y=15
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Goblin Spearman-52"
+		name="Pranak"
+		type="Goblin Spearman"
+		unrenamable=no
+		x=11
+		y=17
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Pirate Galleon-53"
+		name=""
+		type="Pirate Galleon"
+		unrenamable=no
+		x=1
+		y=16
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Pirate Galleon-54"
+		name=""
+		type="Pirate Galleon"
+		unrenamable=no
+		x=3
+		y=17
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Pirate Galleon-55"
+		name=""
+		type="Pirate Galleon"
+		unrenamable=no
+		x=3
+		y=14
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Boat-56"
+		name=""
+		type="Boat"
+		unrenamable=no
+		x=2
+		y=18
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Mermaid Priestess-57"
+		name="Himerceto"
+		type="Mermaid Priestess"
+		unrenamable=no
+		x=11
+		y=16
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Orcish Ruler-62"
+		name="Prirt"
+		type="Orcish Ruler"
+		unrenamable=no
+		x=13
+		y=16
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Water Serpent-66"
+		name=""
+		type="Water Serpent"
+		unrenamable=no
+		x=13
+		y=15
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Fire Dragon-68"
+		name=""
+		type="Fire Dragon"
+		unrenamable=no
+		x=37
+		y=13
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Sea Serpent-71"
+		name=""
+		type="Sea Serpent"
+		unrenamable=no
+		x=39
+		y=6
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Yeti-72"
+		name=""
+		type="Yeti"
+		unrenamable=no
+		x=35
+		y=29
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Mage of Light-73"
+		name="Rhyn"
+		type="Mage of Light"
+		unrenamable=no
+		x=36
+		y=30
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Longbowman-74"
+		name="Gumyr"
+		type="Longbowman"
+		unrenamable=no
+		x=34
+		y=30
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Grand Knight-75"
+		name="Rhar"
+		type="Grand Knight"
+		unrenamable=no
+		x=35
+		y=32
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Duelist-76"
+		name="Cunvan"
+		type="Duelist"
+		unrenamable=no
+		x=36
+		y=31
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Iron Mauler-77"
+		name="Rodd"
+		type="Iron Mauler"
+		unrenamable=no
+		x=34
+		y=31
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Assassin-78"
+		name="Glunvan"
+		type="Assassin"
+		unrenamable=no
+		x=37
+		y=29
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Assassin-79"
+		name="Ceoc"
+		type="Assassin"
+		unrenamable=no
+		x=33
+		y=29
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Paladin-80"
+		name="Bleddyn"
+		type="Paladin"
+		unrenamable=no
+		x=36
+		y=29
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Paladin-81"
+		name="Addyn"
+		type="Paladin"
+		unrenamable=no
+		x=34
+		y=29
+	[/unit]
+	[unit]
+		canrecruit=no
+		extra_recruit=""
+		id="Giant Scorpion-82"
+		name=""
+		type="Giant Scorpion"
+		unrenamable=no
+		x=8
+		y=30
+	[/unit]
+[/side]
